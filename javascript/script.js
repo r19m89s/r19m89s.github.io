@@ -11,7 +11,7 @@ function openCompany(evt, companyName) {
     tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
   
-  document.getElementById(cityName).style.display = "block";
+  document.getElementById(companyName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 
